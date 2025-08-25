@@ -1,0 +1,105 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+/*Funcion ej2:int contint (vector<double>val2, int num){
+    int cont=0;
+    
+    for(int i=0;i<val2.size();i++){
+        if(num == val2[i]){
+            cont++;
+        }
+    }
+    
+    return cont;
+}
+
+pair<float, float> maxmin(vector<double>val){
+    double min=999999,max=-9999999;
+    
+    if (val.empty()) {
+        return {0.0, 0.0};
+    }
+    
+    for(int i=0;i<val.size();i++){
+        if (val[i] <= min){
+            min = val[i];
+        }else if(val[i] >= max){
+            max = val[i];
+        }
+    }
+    
+    return {max, min};
+}*/
+
+/*Funciones Ej1:float sumavect(vector<float>nashe){
+    float sum=0;
+    
+    for(int i=0;i<nashe.size();i++){
+     sum +=nashe[i];
+    }
+  
+  return sum;
+}
+
+float promvect(vector<float>promo){
+    float prom=0;
+    
+    for(int i=0;i<promo.size();i++){
+     prom +=promo[i];
+    }
+    
+    return prom/promo.size();
+}*/
+
+int main(){
+
+/*Ejercicio 1: Manipulación Básica
+Crear y llenar un vector: Escribe un programa que cree un vector de enteros. Usa un bucle para pedirle al usuario 5 números y agrégalos al final del vector.
+Imprimir elementos: Recorre el vector y muestra cada uno de sus elementos.
+Calcular la suma y el promedio: Usa otro bucle para sumar todos los elementos del vector. Imprime la suma y el promedio de los valores.
+
+vector <float> numeros(2);
+
+cout << "Ingrese los valores del vector\n";
+
+for(int i=0;i<numeros.size();i++){
+        cin >> numeros[i];
+    }
+  
+cout << "Los valores del vector son: \n";
+  
+for(int i=0;i<numeros.size();i++){
+        cout << numeros[i] << " ";
+    }
+cout << endl;
+
+cout << "---------------\n";
+cout << "La suma de los elementos del vector es: " << sumavect(numeros) << endl;
+cout << "El promedio de los elementos del vector es: " << promvect(numeros) << endl;*/
+
+/*Ejercicio 2:Encontrar el valor máximo y mínimo: Escribe una función que tome un std::vector<int> y devuelva el valor más grande y el más pequeño del vector. 
+Puedes devolver un std::pair o un std::tuple para esto.
+Contar ocurrencias: Crea una segunda función que reciba un vector y un entero. La función debe contar cuántas veces aparece ese entero en el vector y devolver el conteo. 
+En main, pide al usuario un número y usa la función para mostrar cuántas veces se encuentra.
+
+vector<double>num(4);
+    int c;
+    
+    cout << "Ingrese un valor para buscar dentro del vector\n";
+    cin >> c;
+    
+    cout << "Ingrese los valores del vector\n";
+    for(int i=0;i<num.size();i++){
+        cin >> num[i];
+    }
+    
+    pair<double, double> result = maxmin(num);
+    
+    cout << "El valor maximo es: " << result.first << endl;
+    cout << "El valor minimo es: " << result.second << endl;
+    cout << "El valor " << c << " aparece: " << contint(num,c);*/
+
+return 0;
+}
